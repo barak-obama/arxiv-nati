@@ -4,7 +4,6 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.redirect('/arxiv.org/index.html');
-  res.render('index', { title: 'Express' });
 });
 
 module.exports = router;
